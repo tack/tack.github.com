@@ -1,4 +1,8 @@
 
+pre {
+    white-space: pre;
+}
+
 blockquote {
     border-left: 0px;
 }
@@ -147,9 +151,15 @@ pre {
     border-radius: 4px;
 }
 
-.draftpre table {
+.draftpre table.full {
     width: 100%;
     font-size: 15px;
+
+    border: 1px solid black;
+}
+
+.draftpre table.full td {
+    border: 1px solid black;
 }
 
 .draftpre .TOCbug {
