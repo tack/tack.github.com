@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TACK :: Trust Assertions for Certificate Keys</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Moxie Marlinspike">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- <style type="text/css"> -->
+    <!--   body { -->
+    <!--     padding-top: 60px; -->
+    <!--     padding-bottom: 40px; -->
+    <!--   } -->
+    <!-- </style> -->
+
+    <link href="css/site.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="home">
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+	<div class="container">
+	  <a class="brand" href="index.html">TACK</a>
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+	      <li><a href="draft.html">Technical Details</a></li>
+              <li><a href="#resources">Resources</a></li>
+            </ul>	  
+	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+	<div class="jump">
+          <h1 style="color: #ffffff;">TACK, for pinning.</h1>
+	  <br>
+	  <p style="color: #ffffff;">
+	    A proposal for a dynamically activated public key pinning framework that provides
+	    a layer of indirection away from Certificate Authorities, but is fully backwards
+	    compatible with existing CA certificates, and doesn't require sites to modify
+	    their existing certificate chains.
+          <p><a class="btn btn-primary btn-large" href="draft.html">Read Internet Draft &raquo;</a></p>
+	</div>
+      </div>
+
+      <section class="row features">
+	<h2>Flexible, Simple, Secure</h2>
+	<p class="intro">
+	  Designed to be easy to incorporate into existing TLS servers and clients, 
+	  with keys that are simple to manage.
+	</p>
+
+      <hr id="resources"/>
+
+	<div class="span6">
+	  <div class="img"><img src="img/book.svg"/></div>
+	  <h3>The Internet Draft</h3>
+	  <p>We've submitted an Internet Draft to the IETF with TACK's technical details.</p>
+          <p><a class="btn" href="draft.html">Check it out &raquo;</a></p>
+	</div>
+
+	<div class="span6">
+	  <div class="img"><img src="img/gears.svg"/></div>
+	  <h3>The code</h3>
+	  <p>We've written some reference TACK implementations for OpenSSL, Apache, and tlslite,
+	    as well as the command-line tools necessary to generate and manage TACK keys.</p>
+          <p><a class="btn" href="https://github.com/tack">Start hacking &raquo;</a></p>
+	</div>
+
+	<div class="span6">
+	  <div class="img"><img src="img/at.svg"/></div>
+	  <h3>The project list</h3>
+	  <p>We have a mailing list for discussing TACK development.</p>
+          <p><a class="btn" href="https://lists.riseup.net/www/info/tack">Join up &raquo;</a></p>
+	</div>
+
+	<div class="span6">
+	  <div class="img"><img src="img/ethernet.svg"/></div>
+	  <h3>The test server</h3>
+	  <p>We have a test server running Apache that supports TACK, which you can visit
+	  with your browser.</p>
+          <p><a class="btn" href="https://test1.trevp.net">Test it &raquo;</a></p>
+	</div>
+	
+      </section>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js">
+
+  </body>
+</html>
