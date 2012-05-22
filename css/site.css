@@ -97,7 +97,9 @@ section .step {
 }
 
 .draft {
-    background: url('../img/stick.png');
+/*    background: url('../img/stick.png');*/
+/*    background: #ffffff;*/
+    background: url('../img/sketch.png');
 }
 
 .hero-unit {
@@ -146,7 +148,7 @@ pre {
 /*    font-size: 18.025px;*/
     line-height: 18px;
     background-color: white;
-    box-shadow: 10px 10px 5px rgba(45,45,45,0.5);
+    box-shadow: 0px 0px 50px rgba(45,45,45,0.5);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
